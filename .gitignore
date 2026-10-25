@@ -1,0 +1,71 @@
+# Dataset files
+data/raw/
+data/att_faces/
+data/processed_faces/
+data/split/
+data/client1/
+data/client2/
+data/federated_balanced/
+
+# Large archives
+*.zip
+*.7z
+*.rar
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+# Additional dataset locations
+data/
+!data/README.md
+
+# Nested virtual environments
+**/venv/
+**/.venv/
+**/env/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Nested duplicate project folder
+/SmartCampus_FL-main/
+
+# Experiment logs and generated results
+experiments/*/logs/
+experiments/*/checkpoints/
+experiments/*/models/
